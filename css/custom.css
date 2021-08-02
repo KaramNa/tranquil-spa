@@ -1,0 +1,65 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-img {
+    min-height: 25vh;
+}
+
+.feature-bg {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-text {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.title {
+    color: goldenrod;
+}
+
+.list-group-item {
+    background: none;
+    font-size: 1.1em;
+}
+
+a {
+    color: #212529;
+}
+
+@media screen and (min-width: 768px) {
+    .feature-bg {
+        width: 60vw;
+    }
+    span {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background: rgba(175, 169, 169, 0.6);
+        line-height: 80px;
+        top: -40px;
+        left: -40px;
+        margin-left: 50%;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    .title {
+        margin-top: 20px;
+    }
+    footer .btn {
+        margin-top: 10px;
+    }
+}
